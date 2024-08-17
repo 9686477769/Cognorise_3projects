@@ -1,0 +1,55 @@
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;  
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    margin: 0 15px;
+
+    display: block;               /* Make the link behave like a block element */
+    width: 200px;                 /* Width of the box */
+    padding: 50px;                /* Padding inside the box */
+    text-align: center;           /* Center the text */
+    text-decoration: none;        /* Remove underline */
+    color: white;                 /* Text color */
+    border-radius: 10px;          /* Rounded corners */
+    margin: 10px auto;            /* Margin around the box */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    font-family: Arial, sans-serif; /* Font style */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition for smooth effects */
+    background-image: linear-gradient(45deg, #2196F3, hotpink); 
+}
+
+
+/* Individual link styles */
+/* #link1 {
+   
+    background-image: linear-gradient(45deg, #2196F3, hotpink); 
+} */
+
+
+
+  /* #link2 {
+    background-color: #4CAF50; 
+} 
+
+#link3 {
+    background-color: #f44336; 
+}  */
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    transform: scale(1.25);  /* Slightly increase size on hover */
+    box-shadow: 5px 5px 15px black; /* Darker shadow on hover */
+    /*background-position: right center;    /* Animate the gradient position on hover */
+    background-image: linear-gradient(45deg,aqua ,#2196F3); 
+}
